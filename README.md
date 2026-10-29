@@ -1,13 +1,13 @@
 # WildSpot
 
 ## Funktionen
-- Interaktive Fotospotkarte mit sechs Startpunkten rund um Frankfurt
+- Interaktive Fotospotkarte mit sechs Startpunkten und automatischen externen OSM-Naturorten (Schutzgebiete, Aussichtspunkte, Feuchtgebiete, Vogelbeobachtungshütten) im Rhein-Main-Gebiet
 - Motivfilter, eigene Spots (mit Koordinaten), Favoriten und privates Beobachtungslogbuch
-- Aktuelle Wetterdaten sowie Sonnenauf- und -untergang des gewählten Spots (Open-Meteo)
+- Aktuelle Bewölkung, tiefe Wolken, Sichtweite, Nebelhinweis auf Modellbasis und Luftfeuchtigkeit sowie Sonnenauf- und -untergang des gewählten Spots (Open-Meteo)
 - JSON-Backup und Import
 
 ## Datenquellen
-OpenStreetMap-Karte via Leaflet und Wetter von Open-Meteo. Für die Karte muss eine Internetverbindung bestehen. Ausgangsorte/Koordinaten sind ungefähre Orientierungspunkte; keine garantierten Sichtungen. Bitte die Natur und Schutzgebiete respektieren.
+OpenStreetMap-Karte via Leaflet, Naturorte über Overpass (OpenStreetMap) und Wetter von Open-Meteo. OSM-Orte sind landschaftliche Kandidaten, keine geprüfte Rangliste der besten Fotospots; Nebel wird aus Sichtweite und Wettercode interpretiert und ist keine sichere Messung vor Ort. Für die Karte muss eine Internetverbindung bestehen. Ausgangsorte/Koordinaten sind ungefähre Orientierungspunkte; keine garantierten Sichtungen. Bitte die Natur und Schutzgebiete respektieren.
 
 ## Installation über GitHub Pages
 
